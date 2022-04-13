@@ -1,0 +1,110 @@
+body {
+    background-color: #121212;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 4pc;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+button {
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 5px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    border: 0cm;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.flashcard {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(30, 30, 30);
+    background-color: rgb(30, 30, 30);
+    filter: drop-shadow(6px 6px 1px #1a1a1a);
+    display: block;
+    overflow: auto;
+}
+
+.flashcardtext {
+    height: 90%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: auto;
+}
+
+#buttons {
+    visibility: collapse;
+    display: none;
+    justify-content: space-around;
+}
+
+#donebuttonholder {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px;
+}
+
+#donebutton {
+    text-decoration: underline;
+}
+
+#lists {
+    display: table;
+    width: auto;
+    margin: auto;
+}
+
+ul {
+    display: table-cell;
+    padding: 16px;
+}
+
+#easy {
+    visibility: visible;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 255, 0);
+    margin-top: 0;
+}
+
+#medium {
+    visibility: visible;
+    text-decoration: underline;
+    text-decoration-color: #ffe600;
+    margin-top: 0;
+}
+
+#hard {
+    visibility: visible;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 0, 0);
+    margin-top: 0;
+}
+
+#easylist{
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 255, 0);
+}
+
+#medlist{
+    text-decoration: underline;
+    text-decoration-color: #ffe600;
+}
+
+#hardlist{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 0, 0);
+}
