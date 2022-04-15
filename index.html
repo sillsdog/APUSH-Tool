@@ -19,14 +19,12 @@
             </div>
             <div id="buttons">
                 <button id="easy">Easy</button>
-                <button id="medium">Medium</button>
                 <button id="hard">Hard</button>
             </div>
         </div>
         <br>
         <div id="lists">
             <ul class="list" id="easylist"></ul>
-            <ul class="list" id="medlist"></ul>
             <ul class="list" id="hardlist"></ul>
         </div>
         <script>
@@ -1464,22 +1462,6 @@
                 let li = document.createElement('li');
                 easyul.style.color = "aliceblue";
                 easyul.appendChild(li);
-
-                li.innerHTML = document.getElementById("term").innerHTML;
-
-                document.getElementById("donebuttonholder").style.display = 'flex';
-                document.getElementById("buttons").style.display = 'none';
-                document.getElementById('term').innerHTML = terms[Math.floor(Math.random()*terms.length)];
-            }
-
-            document.getElementById("medium").onclick = function() {med()};
-
-            function med() {
-                medul = document.getElementById('medlist');
-                
-                let li = document.createElement('li');
-                medul.style.color = "aliceblue";
-                medul.appendChild(li);
 
                 li.innerHTML = document.getElementById("term").innerHTML;
 
