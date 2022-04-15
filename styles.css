@@ -82,13 +82,6 @@ ul {
     margin-top: 0;
 }
 
-#medium {
-    visibility: visible;
-    text-decoration: underline;
-    text-decoration-color: #ffe600;
-    margin-top: 0;
-}
-
 #hard {
     visibility: visible;
     text-decoration: underline;
@@ -99,11 +92,6 @@ ul {
 #easylist{
     text-decoration: underline;
     text-decoration-color: rgb(0, 255, 0);
-}
-
-#medlist{
-    text-decoration: underline;
-    text-decoration-color: #ffe600;
 }
 
 #hardlist{
